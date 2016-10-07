@@ -1,0 +1,28 @@
+{
+    "name": "mduplouy/acme-php-service-provider",
+    "description": "A Silex service provider for Octopuce Acme Php Client",
+    "type": "library",
+    "license": "WTFPL",
+    "authors": [
+        {
+            "name": "Mathieu Duplouy",
+            "email": "mathieu.duplouy@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "silex/silex": "~1",
+        "octopuce/acmephpc": "dev-refactoring as v1.0"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/mduplouy/acmephpc"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "SoloCreation\\": "app/src/SoloCreation/"
+        }
+    }
+}
