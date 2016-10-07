@@ -1,6 +1,10 @@
 {
-    "name": "mduplouy/acme-php-service-provider",
-    "description": "A Silex service provider for Octopuce Acme Php Client",
+    "name": "solocreation/acme-php-service-provider",
+    "description": "A Silex 1.x service provider for Octopuce Let's Encrypt Acme Php Client",
+    "version": "1.0",
+    "keywords": [
+      "SSL", "certificate", "x509", "octopuce", "let's encrypt", "ACME", "CA", "JWS", "Manager"
+    ],
     "type": "library",
     "license": "WTFPL",
     "authors": [
@@ -12,7 +16,7 @@
     "require": {
         "php": ">=5.3.0",
         "silex/silex": "~1",
-        "octopuce/acmephpc": "dev-refactoring as v1.0"
+        "octopuce/acmephpc": "dev-master as v1.0"
     },
     "repositories": [
         {
@@ -22,7 +26,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "SoloCreation\\": "app/src/SoloCreation/"
+            "SoloCreation\\": "src/SoloCreation/"
         }
     }
 }

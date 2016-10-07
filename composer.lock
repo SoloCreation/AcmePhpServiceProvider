@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "bfcf064d02efd72ca4caaae6e541d9e5",
+    "content-hash": "a8696f939639342ccb9e85a88c388c3f",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -666,16 +666,16 @@
         },
         {
             "name": "octopuce/acmephpc",
-            "version": "dev-refactoring",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mduplouy/acmephpc.git",
-                "reference": "57a0ee6912182bd7880e8fd6b2308b085fa0140a"
+                "reference": "d0f2f14c2e18e889e0fd91883c854532bf572c09"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mduplouy/acmephpc/zipball/57a0ee6912182bd7880e8fd6b2308b085fa0140a",
-                "reference": "57a0ee6912182bd7880e8fd6b2308b085fa0140a",
+                "url": "https://api.github.com/repos/mduplouy/acmephpc/zipball/d0f2f14c2e18e889e0fd91883c854532bf572c09",
+                "reference": "d0f2f14c2e18e889e0fd91883c854532bf572c09",
                 "shasum": ""
             },
             "require": {
@@ -716,9 +716,9 @@
                 "JWS"
             ],
             "support": {
-                "source": "https://github.com/mduplouy/acmephpc/tree/refactoring"
+                "source": "https://github.com/mduplouy/acmephpc/tree/master"
             },
-            "time": "2016-01-29 16:03:22"
+            "time": "2016-10-07 08:43:00"
         },
         {
             "name": "phpseclib/phpseclib",
@@ -1598,7 +1598,7 @@
         {
             "alias": "v1.0",
             "alias_normalized": "1.0.0.0",
-            "version": "dev-refactoring",
+            "version": "9999999-dev",
             "package": "octopuce/acmephpc"
         }
     ],
