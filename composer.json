@@ -15,8 +15,8 @@
     ],
     "require": {
         "php": ">=5.3.0",
-        "silex/silex": "~1",
-        "octopuce/acmephpc": "dev-master as v1.0"
+        "pimple/pimple": "~3.0",
+        "octopuce/acmephpc": "dev-pimple-3.x as v1.0"
     },
     "repositories": [
         {

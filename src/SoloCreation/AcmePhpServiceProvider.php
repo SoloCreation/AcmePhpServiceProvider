@@ -10,8 +10,8 @@
 
 namespace SoloCreation;
 
-use Silex\ServiceProviderInterface;
-use Silex\Application;
+use Pimple\Container;
+use Pimple\ServiceProviderInterface;
 use Octopuce\Acme\Client;
 
 class AcmePhpServiceProvider implements ServiceProviderInterface
@@ -19,9 +19,9 @@ class AcmePhpServiceProvider implements ServiceProviderInterface
     /**
      * @inheritDoc
      */
-    public function register(Application $app)
+    public function register(Container $pimple)
     {
-        $app['acme.client'] = $app->share(function ($c) {
+        $pimple['acme.client'] = function ($c) {
 
             $config = array();
             if (isset($c['acmephpc.config'])) {
@@ -29,14 +29,7 @@ class AcmePhpServiceProvider implements ServiceProviderInterface
             }
 
             return new Client($config);
-        });
+        };
     }
 
-    /**
-     * @inheritDoc
-     */
-    public function boot(Application $app)
-    {
-
-    }
 }

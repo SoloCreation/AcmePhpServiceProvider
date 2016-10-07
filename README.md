@@ -1,4 +1,4 @@
-# Acme Php Service Provider for Silex
+# Acme Php Service Provider for Piple / Silex
 
 Provides a service for [Octopuce Let's Encrypt Acme PHP Client](https://github.com/octopuce/acmephpc) in your silex application
 
@@ -7,14 +7,14 @@ Provides a service for [Octopuce Let's Encrypt Acme PHP Client](https://github.c
 
 Use composer and specify branch accordingly to your silex version :
 
-For Silex 1.x :
+For Pimple / Silex 1.x :
 ```
-$ composer require solocreation/acme-php-service-provider:~1
+$ composer require solocreation/acme-php-service-provider "~1.0"
 ```
 
-For Silex 2.X
+For Pimple 3.x / Silex 2.X
 ```
-$ composer require solocreation/acme-php-service-provider:~2
+$ composer require solocreation/acme-php-service-provider "~2.0"
 ```
 
 ## Usage
